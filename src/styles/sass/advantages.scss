@@ -1,0 +1,28 @@
+.advantages_wrapper {
+    padding: 2% 10%;
+    background-color: #111;
+
+    .advantages_header {
+        background-color: #111;
+        color: #fff;
+        font-size: 30px;
+    }
+
+    .advantages_list {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 0;
+        color: #fff;
+
+        li {
+            list-style: none;
+            border-left: 6px solid #a1faff;
+            padding: 40px;
+
+            .list_num {
+                color: #40d3dc;
+                font-size: 50px;
+            }
+        }
+    }
+}

@@ -1,0 +1,676 @@
+@media (max-width: 1440px) {
+    .app {
+        .service_wrapper {
+            .final_form_wrapper {
+                form {
+                    input {
+                        width: 100%;
+                    }
+
+                    input[type="submit"] {
+                        width: auto;
+                        bottom: 50px;
+                        right: 14%;
+                    }
+                }
+            }
+        }
+
+        // .slider {
+        //     .slides {
+        //         .navigation-manual {
+        //             bottom: 433px;
+        //         }
+        //     }
+        // }
+
+    }
+}
+
+@media (max-width: 1024px) {
+    .app {
+        .header {
+            
+            a {
+                display: none;
+            }
+        }
+
+        .calculation_wrapper {
+            border-bottom-right-radius: 100%;
+
+            .steps_block {
+    
+                .steps_list {
+                    display: block;
+    
+                    li {
+                        margin-left: 0;
+                    }
+
+                    li:not(:last-child) {
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+        }
+
+        .support_wrapper {
+            display: block;
+
+            .accordeon_wrapper {
+                margin-bottom: 5%;
+            }
+
+            .support_form_wrapper {
+                padding: 5% 0;
+                display: flex;
+                justify-content: center;
+                
+                form {
+                    width: 80%;
+
+                    textarea {
+                        width: 80%;
+                        max-width: 80%;
+                    }
+                }
+            }
+            
+        }
+
+        .about_wrapper .block:nth-child(4) .block_heading > h3 {
+            width: 80%;
+        }
+
+        .about_wrapper {
+            .benefit {
+                padding: 5% 0;
+            }
+        }
+
+        .service_wrapper {
+            .final_form_wrapper {
+                form {
+                    input[type="submit"] {
+                        bottom: 25px;
+                        right: 10%;
+                    }
+
+                    .customer_info_block {
+                        padding: 5%;
+                    }
+                }
+            }
+        }
+
+        .support_wrapper {
+            .message_sent_block {
+                width: 50%;
+            }
+        }
+
+        .footer_wrapper {
+            ul {
+                margin-bottom: 0;
+            }
+        }
+        
+    }
+}
+
+@media (max-width: 768px) {
+    .app {
+        .header > a {
+            display: none;
+        }
+
+        .header {
+            box-shadow: none;
+            background-color: transparent;
+            display: block;
+
+            nav {
+                .burger {
+                    display: block;
+                    top: 30%;
+                }
+
+                .navigation {
+                    position: fixed;
+                    right: 0%;
+                    top: -100%;
+                    height: 100%;
+                    background: rgba(0, 0, 0, .8);
+                    transition: 1s;
+                    flex-direction: column;
+                }
+            }
+        }
+
+        .about_wrapper {
+            .block_benefits {
+                .benefit {
+                    img {
+                        width: 50%;
+                        height: 40%;
+                    }
+                }
+            }
+        }
+
+        .calculation_wrapper {
+            .steps_block {
+                h3 {
+                    font-size: 30px;
+                }
+
+                li {
+                    font-size: 18px;
+
+                    span {
+                        font-size: 34px;;
+                    }
+                }
+            }
+
+            .get_started {
+                button {
+                    font-size: 20px;
+                }
+            }
+        }
+
+        .service_wrapper {
+            .final_form_wrapper {
+                .message_sent_block {
+                    width: 50%;
+                }
+    
+                form {
+                    .customer_info_block,
+                    .delivery_info_block {
+                        padding: 6% 4%;
+                    }
+
+                    .customer_info_block {
+                        input[type="submit"] {
+                            bottom: 14px;
+                            right: 9%;
+                        }
+                    }
+                }
+            }
+        }
+
+        .footer_info {
+            line-height: 18px;
+        }
+    }
+
+}
+
+@media (max-width: 426px) {
+    .app {
+        .advantages_list {
+            display: block;
+        }
+
+        .header {
+            nav {
+                .burger {
+                    top: 30%;
+                }
+            }
+        }
+
+        .slider {
+            height: 50vh;
+
+            .pop_up_slide {
+                display: flex;
+                align-items: center;
+                padding: 2% 4%;
+                width: 85%;
+                height: 50%;
+
+                h2 {
+                    font-size: 1em;
+                    margin-bottom: 10px;
+                }
+
+                p {
+                    font-size: .8em;
+                    margin-bottom: 10px;
+                }
+
+                span {
+                    margin-bottom: 10px;
+                    font-size: .9;
+                }
+
+                ul {
+                   li {
+                       font-size: .8em;
+                       list-style: none;
+                   } 
+
+                   .close_popup {
+                       right: -21px;
+                       top: -22px;
+                       font-size: 2.5em;
+                   }
+                }
+
+                ol {
+                    padding: 0 6%;
+                }
+            }
+
+            .slides {
+                height: 100%;
+
+                .slide {    
+                    img {
+                        height: 100%;
+                    }
+
+                    .slide_intro {
+                        top: 107px;
+                        max-width: 80%;
+                    }
+
+                    .view_details {
+                        top: 70%;
+                        font-size: 12px;
+                        padding: 2px 8px;
+                        border-radius: 2px;
+                    }
+
+                    .block_text {
+                        font-size: 20px;
+                    }
+                }
+
+                .navigation-auto {
+                    div {
+                        width: 5vh;
+                    }
+                }
+
+                .navigation-manual {
+                    label {
+                        width: 5vh;
+                    }
+                }
+
+            }
+
+            .slide-3 {
+                .close_popup {
+                    right: -21px;
+                    top: -22px;
+                    font-size: 2.5em;
+                }
+            }
+        }
+
+        main {
+            .about_wrapper {
+                margin-top: 100px;
+            }
+        }
+
+        .advantages_wrapper {
+            .advantages_header {
+                font-size: 20px;
+            }
+
+            .advantages_list {
+                li {
+                    text-align: center;
+                    padding: 10px;
+
+                    .list_num {
+                        font-size: 30px;
+                    }
+                }
+
+                li:not(:first-child) {
+                    margin-top: 10px;
+                }
+            }    
+        }
+
+        .calculation_wrapper {
+            margin-bottom: 70px;
+
+            .steps_block {
+                h3 {
+                    font-size: 20px;
+                    margin-bottom: 30px;
+                }
+
+                .steps_list {
+                    li {
+                        font-size: 18px;
+                    }
+                }
+            }
+
+            .get_started {
+                button {
+                    font-size: 12px;
+                    padding: 12px;
+                }
+            }
+        }
+
+        .form_wrapper {
+            form {
+                margin-bottom: 50px;
+
+                .form_destination {
+                    flex-direction: column;
+                }
+
+                .form_details > button {
+                    padding: 5px 20px;
+                }
+
+                .form_details {
+                    .inputs_wrapper {
+                        .number,
+                        .input_wrapper {
+                            width: 100%;
+                        }
+
+                        width: 100%;
+                        justify-content: flex-start;
+
+                        input {
+                            width: 100%;
+                        }
+                    }
+                }
+
+                .price_wrapper {
+                    flex-direction: column;
+
+                    .count_price {
+                        margin-bottom: 20px;
+                        padding: 5px 40px;
+                    }
+                }
+
+                input {
+                    width: 100%;
+                }
+            }
+        }
+
+        .service_wrapper {
+            h2 {
+                font-size: 1.5em;
+            }
+
+            .steps_wrapper {
+                .step {
+                    margin-bottom: 15%;
+
+                    .step_wrapper {
+                        width: auto;
+
+                        h3 {
+                            font-size: 1.25em;
+                        }
+
+                        h4 {
+                            font-size: 1.1em;
+                        }
+
+                        p {
+                            font-size: .9em;
+                        }
+                    }
+                }
+
+                .step:nth-child(odd) {
+                    background-position: 97% center;
+                }
+
+                .step:nth-child(odd) {
+                    .step_wrapper {
+                        padding: 5% 25% 5% 5%;
+                    }
+                }
+
+                .step:nth-child(even) {
+                    .step_wrapper {
+                        padding: 5% 5% 5% 25%;
+                    }
+                }
+
+            }
+
+            .treaty_wrapper {
+                h3 {
+                    font-size: 1.25em;
+                }
+
+                p {
+                    font-size: .9em;
+                }
+
+                .confirmation_wrapper {
+                    margin-bottom: 50px;
+                }
+
+                hr {
+                    margin-top: 0;
+                }
+            }
+
+            .final_form_wrapper {
+                h2 {
+                    margin-bottom: 30px;
+                }
+
+                form {
+                    flex-direction: column;
+                    margin-bottom: 70px;
+
+                    .delivery_info_block {
+                        h3 {
+                            font-size: 1.25em;
+                        }
+
+                        input {
+                            width: 100%;
+                        }
+                    }
+
+                    .customer_info_block {
+                        h3 {
+                            font-size: 1.25em;
+                        }
+
+                        input {
+                            width: 100%;
+                        }
+
+                        textarea {
+                            margin-bottom: 30px;
+                        }
+
+                        input[type="submit"] {
+                            width: auto;
+                            bottom: 0;
+                            right: 9%;
+                        }
+                    }
+                }
+            }
+        }
+
+        .about_wrapper {
+            display: flex;
+            flex-direction: column;
+            margin: 0 0 70px 0;
+
+            .block {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .block_intro {
+                margin-bottom: 50px;
+
+                .intro_img {
+                    img {
+                        width: 80%;
+                    }
+                }
+            }
+
+            .block_info {
+                .block {
+                    .block_heading,
+                    .block_text {
+                        width: auto;
+                    }
+                }
+            }
+
+            .block_benefits {
+                flex-direction: column;
+
+                .benefit {
+                    margin-left: 0;
+
+                    img {
+                        width: 20%;
+                    }
+                }
+
+                .benefit:not(:last-child) {
+                    margin-bottom: 30px;
+                }
+            }
+        }
+
+        .support_wrapper {
+            margin: 0 0 50px 0;
+
+            .support_form_wrapper {
+                form {
+                    width: 100%;
+
+                    input {
+                        width: 100%;
+                    }
+
+                    textarea {
+                        width: 100%;
+                        max-width: 100%;
+                    }
+
+                }
+            }
+
+            .message_sent_block {
+                width: 80%;
+            }
+
+        }
+
+        .service_wrapper {
+            .message_sent_block {
+                width: 80%;
+
+                h3 {
+                    font-size: 20px;
+                }
+
+                button {
+                    margin-top: 10px;
+                    padding: 5px 20px;
+                }
+            }
+
+            .final_form_wrapper {
+                .message_sent_block {
+                    width: 80%;
+                }
+            }
+        }
+
+        .welcome_wrapper {
+            h1 {
+                font-size: 1.6em;
+            }
+
+            p {
+                font-size: 1em;
+            }
+
+            .welcome_btn {
+                width: 35%;
+            }
+        }
+
+        .support_wrapper {
+            margin-top: 100px;
+        }
+    
+        .footer_wrapper {
+            background-image: none;
+            background-color: #40d3dc;
+            padding: 5% 10%;
+
+            ul {
+                justify-content: space-around;
+
+                img {
+                    width: 30px;
+                }
+            }
+
+            ul > li:nth-child(2) {
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+@media (max-width: 375px) {
+    .app {
+        .calculation_wrapper {
+            .form_wrapper {
+                form {
+                    .form_details > button {
+                        padding: 5px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 320px) {
+    .app {
+        .welcome_block {
+            .welcome_wrapper {
+                .welcome_btn {
+                    font-size: 12px;
+                }
+            }
+        }
+
+        .footer_wrapper {
+            ul > li:nth-child(1) {
+                display: none;
+            }
+        }
+    }
+}

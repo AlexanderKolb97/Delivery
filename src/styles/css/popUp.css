@@ -1,0 +1,76 @@
+@keyframes popup {
+  0% {
+    top: -50%;
+  }
+  100% {
+    bottom: 0;
+  }
+}
+.pop_up_slide {
+  width: 60%;
+  height: 60%;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 50px;
+  position: absolute;
+  top: 46%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 998;
+  transition: 0.3s;
+  animation-name: popup;
+  animation-duration: 0.2s;
+}
+.pop_up_slide h2 {
+  margin-bottom: 30px;
+}
+.pop_up_slide p {
+  margin-bottom: 30px;
+}
+.pop_up_slide span {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.slide-1 {
+  background-image: url("../bg_images/delivery.png");
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: 20%;
+}
+
+.slide-2 {
+  background-image: url("../bg_images/clerk.png");
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: 20%;
+}
+
+.slide-3 {
+  background-image: url("../bg_images/done.png");
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: 20%;
+}
+
+.slide-4 {
+  background-image: url("../bg_images/happyguy.png");
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: 20%;
+}
+
+.close_popup {
+  border: 0;
+  background-color: transparent;
+  font-size: 3.5em;
+  position: absolute;
+  right: -50px;
+  top: -30px;
+  color: #5da4c7;
+  cursor: pointer;
+}
+
+.close_popup:hover {
+  color: red;
+  transition: 0.2s;
+}

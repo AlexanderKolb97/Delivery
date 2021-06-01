@@ -1,0 +1,181 @@
+.service_wrapper {
+  margin-top: 100px;
+  padding: 5% 10%;
+}
+.service_wrapper h2 {
+  margin-bottom: 50px;
+  text-align: center;
+}
+.service_wrapper .treaty_wrapper {
+  position: relative;
+}
+.service_wrapper .treaty_wrapper .confirmation_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+.service_wrapper .treaty_wrapper .confirmation_wrapper input {
+  cursor: pointer;
+}
+.service_wrapper .treaty_wrapper .confirmation_wrapper label {
+  margin: 0 0 0 10px;
+  font-weight: 600;
+}
+.service_wrapper .treaty_wrapper .confirmation_wrapper > div:nth-child(1) {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.service_wrapper .treaty_wrapper .confirmation_wrapper > div:nth-child(1) label {
+  order: 1;
+}
+.service_wrapper .treaty_wrapper .send_request {
+  position: absolute;
+  right: 0;
+  border: 0;
+  background-color: #40d3dc;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px 10px;
+  outline: none;
+  cursor: pointer;
+}
+.service_wrapper .treaty_wrapper .send_request:disabled {
+  background-color: #d0cdcd;
+  color: gray;
+}
+.service_wrapper .treaty_wrapper hr {
+  margin-top: 100px;
+}
+.service_wrapper .steps_wrapper .step_wrapper {
+  width: 50%;
+  padding: 50px;
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+}
+.service_wrapper .steps_wrapper .step_wrapper h4 {
+  font-style: italic;
+}
+.service_wrapper .steps_wrapper .step {
+  margin-bottom: 100px;
+  display: flex;
+}
+.service_wrapper .steps_wrapper .step:nth-child(1) {
+  background-image: url("../bg_images/calculator.png");
+  background-position: right center;
+  background-size: 15%;
+  background-repeat: no-repeat;
+}
+.service_wrapper .steps_wrapper .step:nth-child(2) {
+  display: flex;
+  justify-content: flex-end;
+  background-image: url("../bg_images/treaty.png");
+  background-position: left center;
+  background-size: 20%;
+  background-repeat: no-repeat;
+}
+.service_wrapper .steps_wrapper .step:nth-child(3) {
+  background-image: url("../bg_images/sending.png");
+  background-position: right center;
+  background-size: 20%;
+  background-repeat: no-repeat;
+}
+.service_wrapper .step_wrapper {
+  width: 50%;
+  padding: 100px 50px;
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+}
+.service_wrapper .final_form_wrapper h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.service_wrapper .final_form_wrapper form {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-between;
+  padding: 5%;
+  box-shadow: 0px 2px 10px -1px rgba(34, 60, 80, 0.2);
+}
+.service_wrapper .final_form_wrapper form .delivery_info_block input {
+  background-color: #40d3dc;
+  border: 1px solid gray;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 5px;
+}
+.service_wrapper .final_form_wrapper form .delivery_info_block,
+.service_wrapper .final_form_wrapper form .customer_info_block {
+  padding: 5% 10%;
+  border: 1px solid #ededed;
+}
+.service_wrapper .final_form_wrapper form .delivery_info_block input,
+.service_wrapper .final_form_wrapper form .customer_info_block input {
+  border: 1px solid #c1b3b3;
+}
+.service_wrapper .final_form_wrapper form label {
+  display: block;
+  margin-bottom: 0;
+}
+.service_wrapper .final_form_wrapper form input {
+  padding: 2px 10px;
+  margin-bottom: 20px;
+}
+.service_wrapper .final_form_wrapper form input:focus,
+.service_wrapper .final_form_wrapper form textarea:focus {
+  outline: 3px solid #40d3dc;
+  transition: 0.2s;
+  box-shadow: 0px 5px 10px 2px rgba(79, 236, 222, 0.1);
+}
+.service_wrapper .final_form_wrapper form input[type=submit] {
+  position: absolute;
+  bottom: -1%;
+  right: 5%;
+  text-transform: uppercase;
+  color: #fff;
+  background: linear-gradient(90deg, #47f645 24%, #14ed37 100%);
+  cursor: pointer;
+  border: 0;
+  border-radius: 5px;
+  outline: none;
+  padding: 5px 10px;
+}
+.service_wrapper .final_form_wrapper form input[type=submit]:hover {
+  background: linear-gradient(90deg, #5da4c7 24%, #40d3dc 100%);
+}
+.service_wrapper .final_form_wrapper form textarea {
+  width: 100%;
+  border: 1px solid #c1b3b3;
+  padding: 0 10px;
+}
+.service_wrapper .final_form_wrapper .message_sent_block {
+  width: 30%;
+  padding-bottom: 20px;
+  background-color: #f8f8f8;
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+}
+.service_wrapper .final_form_wrapper .message_sent_block h3 {
+  background: linear-gradient(90deg, #47f645 24%, #14ed37 100%);
+  width: 100%;
+  padding: 20px 0;
+  color: #fff;
+}
+.service_wrapper .final_form_wrapper .message_sent_block button {
+  border: 0;
+  padding: 10px 30px;
+  margin-top: 30px;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #47f645 24%, #14ed37 100%);
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+}

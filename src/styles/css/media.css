@@ -1,0 +1,414 @@
+@media (max-width: 1440px) {
+  .app .service_wrapper .final_form_wrapper form input {
+    width: 100%;
+  }
+  .app .service_wrapper .final_form_wrapper form input[type=submit] {
+    width: auto;
+    bottom: 50px;
+    right: 14%;
+  }
+}
+@media (max-width: 1024px) {
+  .app .header a {
+    display: none;
+  }
+  .app .calculation_wrapper {
+    border-bottom-right-radius: 100%;
+  }
+  .app .calculation_wrapper .steps_block .steps_list {
+    display: block;
+  }
+  .app .calculation_wrapper .steps_block .steps_list li {
+    margin-left: 0;
+  }
+  .app .calculation_wrapper .steps_block .steps_list li:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  .app .support_wrapper {
+    display: block;
+  }
+  .app .support_wrapper .accordeon_wrapper {
+    margin-bottom: 5%;
+  }
+  .app .support_wrapper .support_form_wrapper {
+    padding: 5% 0;
+    display: flex;
+    justify-content: center;
+  }
+  .app .support_wrapper .support_form_wrapper form {
+    width: 80%;
+  }
+  .app .support_wrapper .support_form_wrapper form textarea {
+    width: 80%;
+    max-width: 80%;
+  }
+  .app .about_wrapper .block:nth-child(4) .block_heading > h3 {
+    width: 80%;
+  }
+  .app .about_wrapper .benefit {
+    padding: 5% 0;
+  }
+  .app .service_wrapper .final_form_wrapper form input[type=submit] {
+    bottom: 25px;
+    right: 10%;
+  }
+  .app .service_wrapper .final_form_wrapper form .customer_info_block {
+    padding: 5%;
+  }
+  .app .support_wrapper .message_sent_block {
+    width: 50%;
+  }
+  .app .footer_wrapper ul {
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 768px) {
+  .app .header > a {
+    display: none;
+  }
+  .app .header {
+    box-shadow: none;
+    background-color: transparent;
+    display: block;
+  }
+  .app .header nav .burger {
+    display: block;
+    top: 30%;
+  }
+  .app .header nav .navigation {
+    position: fixed;
+    right: 0%;
+    top: -100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    transition: 1s;
+    flex-direction: column;
+  }
+  .app .about_wrapper .block_benefits .benefit img {
+    width: 50%;
+    height: 40%;
+  }
+  .app .calculation_wrapper .steps_block h3 {
+    font-size: 30px;
+  }
+  .app .calculation_wrapper .steps_block li {
+    font-size: 18px;
+  }
+  .app .calculation_wrapper .steps_block li span {
+    font-size: 34px;
+  }
+  .app .calculation_wrapper .get_started button {
+    font-size: 20px;
+  }
+  .app .service_wrapper .final_form_wrapper .message_sent_block {
+    width: 50%;
+  }
+  .app .service_wrapper .final_form_wrapper form .customer_info_block,
+.app .service_wrapper .final_form_wrapper form .delivery_info_block {
+    padding: 6% 4%;
+  }
+  .app .service_wrapper .final_form_wrapper form .customer_info_block input[type=submit] {
+    bottom: 14px;
+    right: 9%;
+  }
+  .app .footer_info {
+    line-height: 18px;
+  }
+}
+@media (max-width: 426px) {
+  .app .advantages_list {
+    display: block;
+  }
+  .app .header nav .burger {
+    top: 30%;
+  }
+  .app .slider {
+    height: 50vh;
+  }
+  .app .slider .pop_up_slide {
+    display: flex;
+    align-items: center;
+    padding: 2% 4%;
+    width: 85%;
+    height: 50%;
+  }
+  .app .slider .pop_up_slide h2 {
+    font-size: 1em;
+    margin-bottom: 10px;
+  }
+  .app .slider .pop_up_slide p {
+    font-size: 0.8em;
+    margin-bottom: 10px;
+  }
+  .app .slider .pop_up_slide span {
+    margin-bottom: 10px;
+    font-size: 0.9;
+  }
+  .app .slider .pop_up_slide ul li {
+    font-size: 0.8em;
+    list-style: none;
+  }
+  .app .slider .pop_up_slide ul .close_popup {
+    right: -21px;
+    top: -22px;
+    font-size: 2.5em;
+  }
+  .app .slider .pop_up_slide ol {
+    padding: 0 6%;
+  }
+  .app .slider .slides {
+    height: 100%;
+  }
+  .app .slider .slides .slide img {
+    height: 100%;
+  }
+  .app .slider .slides .slide .slide_intro {
+    top: 107px;
+    max-width: 80%;
+  }
+  .app .slider .slides .slide .view_details {
+    top: 70%;
+    font-size: 12px;
+    padding: 2px 8px;
+    border-radius: 2px;
+  }
+  .app .slider .slides .slide .block_text {
+    font-size: 20px;
+  }
+  .app .slider .slides .navigation-auto div {
+    width: 5vh;
+  }
+  .app .slider .slides .navigation-manual label {
+    width: 5vh;
+  }
+  .app .slider .slide-3 .close_popup {
+    right: -21px;
+    top: -22px;
+    font-size: 2.5em;
+  }
+  .app main .about_wrapper {
+    margin-top: 100px;
+  }
+  .app .advantages_wrapper .advantages_header {
+    font-size: 20px;
+  }
+  .app .advantages_wrapper .advantages_list li {
+    text-align: center;
+    padding: 10px;
+  }
+  .app .advantages_wrapper .advantages_list li .list_num {
+    font-size: 30px;
+  }
+  .app .advantages_wrapper .advantages_list li:not(:first-child) {
+    margin-top: 10px;
+  }
+  .app .calculation_wrapper {
+    margin-bottom: 70px;
+  }
+  .app .calculation_wrapper .steps_block h3 {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  .app .calculation_wrapper .steps_block .steps_list li {
+    font-size: 18px;
+  }
+  .app .calculation_wrapper .get_started button {
+    font-size: 12px;
+    padding: 12px;
+  }
+  .app .form_wrapper form {
+    margin-bottom: 50px;
+  }
+  .app .form_wrapper form .form_destination {
+    flex-direction: column;
+  }
+  .app .form_wrapper form .form_details > button {
+    padding: 5px 20px;
+  }
+  .app .form_wrapper form .form_details .inputs_wrapper {
+    width: 100%;
+    justify-content: flex-start;
+  }
+  .app .form_wrapper form .form_details .inputs_wrapper .number,
+.app .form_wrapper form .form_details .inputs_wrapper .input_wrapper {
+    width: 100%;
+  }
+  .app .form_wrapper form .form_details .inputs_wrapper input {
+    width: 100%;
+  }
+  .app .form_wrapper form .price_wrapper {
+    flex-direction: column;
+  }
+  .app .form_wrapper form .price_wrapper .count_price {
+    margin-bottom: 20px;
+    padding: 5px 40px;
+  }
+  .app .form_wrapper form input {
+    width: 100%;
+  }
+  .app .service_wrapper h2 {
+    font-size: 1.5em;
+  }
+  .app .service_wrapper .steps_wrapper .step {
+    margin-bottom: 15%;
+  }
+  .app .service_wrapper .steps_wrapper .step .step_wrapper {
+    width: auto;
+  }
+  .app .service_wrapper .steps_wrapper .step .step_wrapper h3 {
+    font-size: 1.25em;
+  }
+  .app .service_wrapper .steps_wrapper .step .step_wrapper h4 {
+    font-size: 1.1em;
+  }
+  .app .service_wrapper .steps_wrapper .step .step_wrapper p {
+    font-size: 0.9em;
+  }
+  .app .service_wrapper .steps_wrapper .step:nth-child(odd) {
+    background-position: 97% center;
+  }
+  .app .service_wrapper .steps_wrapper .step:nth-child(odd) .step_wrapper {
+    padding: 5% 25% 5% 5%;
+  }
+  .app .service_wrapper .steps_wrapper .step:nth-child(even) .step_wrapper {
+    padding: 5% 5% 5% 25%;
+  }
+  .app .service_wrapper .treaty_wrapper h3 {
+    font-size: 1.25em;
+  }
+  .app .service_wrapper .treaty_wrapper p {
+    font-size: 0.9em;
+  }
+  .app .service_wrapper .treaty_wrapper .confirmation_wrapper {
+    margin-bottom: 50px;
+  }
+  .app .service_wrapper .treaty_wrapper hr {
+    margin-top: 0;
+  }
+  .app .service_wrapper .final_form_wrapper h2 {
+    margin-bottom: 30px;
+  }
+  .app .service_wrapper .final_form_wrapper form {
+    flex-direction: column;
+    margin-bottom: 70px;
+  }
+  .app .service_wrapper .final_form_wrapper form .delivery_info_block h3 {
+    font-size: 1.25em;
+  }
+  .app .service_wrapper .final_form_wrapper form .delivery_info_block input {
+    width: 100%;
+  }
+  .app .service_wrapper .final_form_wrapper form .customer_info_block h3 {
+    font-size: 1.25em;
+  }
+  .app .service_wrapper .final_form_wrapper form .customer_info_block input {
+    width: 100%;
+  }
+  .app .service_wrapper .final_form_wrapper form .customer_info_block textarea {
+    margin-bottom: 30px;
+  }
+  .app .service_wrapper .final_form_wrapper form .customer_info_block input[type=submit] {
+    width: auto;
+    bottom: 0;
+    right: 9%;
+  }
+  .app .about_wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 70px 0;
+  }
+  .app .about_wrapper .block {
+    display: flex;
+    flex-direction: column;
+  }
+  .app .about_wrapper .block_intro {
+    margin-bottom: 50px;
+  }
+  .app .about_wrapper .block_intro .intro_img img {
+    width: 80%;
+  }
+  .app .about_wrapper .block_info .block .block_heading,
+.app .about_wrapper .block_info .block .block_text {
+    width: auto;
+  }
+  .app .about_wrapper .block_benefits {
+    flex-direction: column;
+  }
+  .app .about_wrapper .block_benefits .benefit {
+    margin-left: 0;
+  }
+  .app .about_wrapper .block_benefits .benefit img {
+    width: 20%;
+  }
+  .app .about_wrapper .block_benefits .benefit:not(:last-child) {
+    margin-bottom: 30px;
+  }
+  .app .support_wrapper {
+    margin: 0 0 50px 0;
+  }
+  .app .support_wrapper .support_form_wrapper form {
+    width: 100%;
+  }
+  .app .support_wrapper .support_form_wrapper form input {
+    width: 100%;
+  }
+  .app .support_wrapper .support_form_wrapper form textarea {
+    width: 100%;
+    max-width: 100%;
+  }
+  .app .support_wrapper .message_sent_block {
+    width: 80%;
+  }
+  .app .service_wrapper .message_sent_block {
+    width: 80%;
+  }
+  .app .service_wrapper .message_sent_block h3 {
+    font-size: 20px;
+  }
+  .app .service_wrapper .message_sent_block button {
+    margin-top: 10px;
+    padding: 5px 20px;
+  }
+  .app .service_wrapper .final_form_wrapper .message_sent_block {
+    width: 80%;
+  }
+  .app .welcome_wrapper h1 {
+    font-size: 1.6em;
+  }
+  .app .welcome_wrapper p {
+    font-size: 1em;
+  }
+  .app .welcome_wrapper .welcome_btn {
+    width: 35%;
+  }
+  .app .support_wrapper {
+    margin-top: 100px;
+  }
+  .app .footer_wrapper {
+    background-image: none;
+    background-color: #40d3dc;
+    padding: 5% 10%;
+  }
+  .app .footer_wrapper ul {
+    justify-content: space-around;
+  }
+  .app .footer_wrapper ul img {
+    width: 30px;
+  }
+  .app .footer_wrapper ul > li:nth-child(2) {
+    font-size: 12px;
+  }
+}
+@media (max-width: 375px) {
+  .app .calculation_wrapper .form_wrapper form .form_details > button {
+    padding: 5px;
+  }
+}
+@media (max-width: 320px) {
+  .app .welcome_block .welcome_wrapper .welcome_btn {
+    font-size: 12px;
+  }
+  .app .footer_wrapper ul > li:nth-child(1) {
+    display: none;
+  }
+}

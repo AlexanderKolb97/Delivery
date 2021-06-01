@@ -1,0 +1,120 @@
+.footer_wrapper {
+    // background-color: rgb(248, 248, 248);
+    // -webkit-box-shadow: 0px -5px 5px -5px rgba(34, 60, 80, 0.6);
+    // -moz-box-shadow: 0px -5px 5px -5px rgba(34, 60, 80, 0.6);
+    // box-shadow: 0px -5px 5px -5px rgba(34, 60, 80, 0.6);
+
+    // background: #40d3dc;
+    // border-top-left-radius: 80%;
+    // border-top-right-radius: 50%;
+    background-image: url("../bg_images/bg_footer.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 12% 10% 1% 10%;
+    
+    
+
+    img {
+        width: 50px;
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        li {
+            list-style: none;
+            color: #fff;
+        }
+
+        .footer_colon {
+            font-size: 14px;
+            line-height: 24px;
+            font-weight: 600;
+        }
+    }
+
+    .btn_up_wrapper {
+        width: 30px;
+        height: 70px;
+        border-radius: 20px;
+        background-color: rgb(160, 22, 22);
+
+        position: fixed;
+        bottom: 5%;
+        right: 3%;
+
+        .btn_up {
+            text-decoration: none;
+            color: #111;
+            font-size: 36px;
+            font-weight: 800;  
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+            outline: none;
+        }
+
+        .up_content {
+            font-size: 8px;
+            font-weight: 600;
+            color: #fff;
+            position: absolute;
+            display: inline-block;
+            height: 100%;
+            width: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+
+            a {
+                height: 100%;
+                display: inline-block;
+                width: 100%;
+                text-align: center;
+                text-decoration: none;
+                color: #fff;
+                position: absolute;
+                font-weight: bold;
+                cursor: pointer;
+                line-height: 110px;
+                font-size: 12px;
+            }
+        }
+
+        @keyframes upBtn {
+            0% {
+                bottom: 24px;
+            }
+
+            50% {
+                bottom: 48px;
+            }
+
+            100% {
+                bottom: 24px;
+            }
+        }
+
+        span:before {
+            content: '';
+            display: inline-block;
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            border: 2px solid #fff;
+            background-color: rgb(160, 22, 22);
+            position: absolute;
+            left: 50%;
+            bottom: 12px;
+            transform: translateX(-50%);
+            animation: upBtn 1s linear infinite; 
+        }
+    }
+
+}
