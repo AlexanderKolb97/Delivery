@@ -12,14 +12,16 @@ function Treaty( { finalFormState, setFinalFormState } ) {
         if(!checkbox) return
 
         checkbox.addEventListener('click', () => {
-            if(document.querySelector('.send_request').hasAttribute('disabled')) {
-                document.querySelector('.send_request').removeAttribute('disabled');
+            let requestBtn = document.querySelector('.send_request');
 
-                document.querySelector('.send_request').addEventListener('click', () => setFinalFormState(true))
+            if(requestBtn.hasAttribute('disabled')) {
+                requestBtn.removeAttribute('disabled');
+
+                requestBtn.addEventListener('click', () => setFinalFormState(true))
             } else {
-                document.querySelector('.send_request').setAttribute('disabled', null);
+                requestBtn.setAttribute('disabled', null);
 
-                document.querySelector('.send_request').addEventListener('click', () => setFinalFormState(true))
+                requestBtn.addEventListener('click', () => setFinalFormState(true))
             } 
 
             setCheckboxState(prev => !prev)

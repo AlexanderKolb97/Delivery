@@ -9,9 +9,10 @@ import {
 
 function Nav() {
     useEffect(() => {
-        document.querySelectorAll('.navigation li').forEach(link => {
+        let links = document.querySelectorAll('.navigation li');
+        links.forEach(link => {
             link.addEventListener('click', () => {
-                document.querySelectorAll('.navigation li').forEach(item => item.classList.remove('active'));
+                links.forEach(item => item.classList.remove('active'));
                 link.classList.add('active');
             })
         })

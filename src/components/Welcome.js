@@ -4,8 +4,9 @@ import '../styles/css/welcome.css';
 
 function Welcome() {
     window.addEventListener('load', () => {
-        document.getElementById('welcome').style.display = 'flex';
-        document.querySelector('.welcome_btn').addEventListener('click', () => document.getElementById('welcome').style.display = 'none');
+        let welcome = document.getElementById('welcome');
+        welcome.style.display = 'flex';
+        document.querySelector('.welcome_btn').addEventListener('click', () => welcome.style.display = 'none');
     })
 
     return (

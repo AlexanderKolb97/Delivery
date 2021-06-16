@@ -37,19 +37,25 @@ function App() {
             distance: distance
         }
 
-        if(document.querySelector('[name="length"]')) data.length = document.querySelector('[name="length"]').value;
-        if(document.querySelector('[name="width"]')) data.width = document.querySelector('[name="width"]').value;
-        if(document.querySelector('[name="height"]')) data.height = document.querySelector('[name="height"]').value;
+        let inputLength = document.querySelector('[name="length"]'),
+            inputWidth = document.querySelector('[name="width"]'),
+            inputHeight = document.querySelector('[name="height"]');
+
+        if(inputLength) data.length = inputLength.value;
+        if(inputWidth) data.width = inputWidth.value;
+        if(inputHeight) data.height = inputHeight.value;
+
+        let calculations = Math.round((data.weight/10 + data.length/10 + data.width/10 + data.height/10 + data.distance) * data.number/10);
 
         switch(data.type) {
             case 'Household':
-                data.price = Math.round((data.weight/10 + data.length/10 + data.width/10 + data.height/10 + data.distance) * data.number/10);
+                data.price = calculations;
                 break;
             case 'Pets':
                 data.price = data.weight * data.number * 10;
                 break; 
             case 'Fragile':
-                data.price = Math.round((data.weight/10 + data.length/10 + data.width/10 + data.height/10 + data.distance) * data.number/10) * 2;
+                data.price = calculations * 2;
                 break;
             default:
                 data.price = null;

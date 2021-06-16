@@ -3,12 +3,14 @@ import '../styles/css/burger.css';
 
 function Burger() {
 
-    let burger;
-    let navigation;
+    let burger,
+        navigation;
 
     const handleBurger = () => {
-        burger = document.querySelector('.burger');
-        navigation = document.querySelector('.navigation');
+        let nav = document.querySelector('nav');
+
+        burger = nav.querySelector('.burger');
+        navigation = nav.querySelector('.navigation');
         let value = parseInt(window.getComputedStyle(navigation).top) - 100;
 
         burger.addEventListener('click', function() {

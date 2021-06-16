@@ -34,12 +34,14 @@ function Form() {
     }
 
     const numIncrease = () => {
-        document.querySelector('[name="num"]').value = +document.querySelector('[name="num"]').value + 1;
+        let numInput = document.querySelector('[name="num"]');
+        numInput.value = +numInput.value + 1;
     }
 
     const numDecrease = () => {
-        if(document.querySelector('[name="num"]').value > 1) {
-            document.querySelector('[name="num"]').value = +document.querySelector('[name="num"]').value - 1;
+        let numInput = document.querySelector('[name="num"]');
+        if(numInput.value > 1) {
+            numInput.value = +numInput.value - 1;
         } else {
             return
         }      
